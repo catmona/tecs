@@ -1,0 +1,10 @@
+{
+   "name": "tecs",
+   "version": "0.0.1",
+   "description": "a typescript implementation of ECS",
+   "main": "dist/index.js",
+   "types": "dist/index.d.ts",
+   "files": [
+      "/dist"
+   ]
+}
