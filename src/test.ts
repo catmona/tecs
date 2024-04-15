@@ -24,6 +24,7 @@
 // but setting is tough. e.set('position', {x: 5, y: 5} as Position) --- this is pretty unforgivable. no type hitns till after you type as? terrible.
 // could do e.get(position).x = 5 but then id have to make sure everything is immutable. would just be so much nicer to have get be e.position.x and set be e.position.x = 5
 // could get that working with records but then no type hints :/
+// idea over weekend: use getters and setters with .attribute access
 
 // double check chatgpt:
 // "Partial<T> doesn't have any runtime impact on memory or performance. It's purely a compile-time construct used by the TypeScript compiler to perform type checking."
